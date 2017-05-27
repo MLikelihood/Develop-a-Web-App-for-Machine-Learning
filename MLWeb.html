@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		 <title>maxlikelihood.html</title>
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+					<link rel="stylesheet1"  type = "text/css" href="D:/WebDesign/Product/stylesheet1.css">
+						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+							<style>
+.containerdiv { float: left; position: relative; } 
+.cornerimage { position: absolute; bottom: -50%; left: 30%; border-radius: 50%; max-width=100%;max-height:100%; border: 6px solid AliceBlue;} 
+
+.fa {
+  padding: 0px;
+  font-size: 20px;
+  width: 20px;
+  text-decoration: none;
+  border-radius: 50%;
+  text-align:center;
+  display:flex-cellpadding;
+  align-items: center;
+  justify-content: center;
+  margin-left:28px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-github {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+
+footer { 
+    display: block;
+}
+							</style>
+
+						</head>
+
+
+						<body>
+
+							<div class="w3-sidebar w3-bar-block w3-light-grey" style="width:25%">
+
+
+								<div class="containerdiv">
+									<img src="C:\Users\Shu Zhang\Pictures\3.jpg" alt="Fjords" style="width:100%">
+										<img class="cornerimage" src="C:\Users\Shu Zhang\Pictures\2.jpg" alt="Fjords" >
+										</div>
+
+
+										<h3 style="text-align: center; margin-top:250px; font-family:courier; color:DarkRed"> Max Likelihood</h3>
+										<div id="nav">
+											<a href="#sec1" class="w3-bar-item w3-button", style="text-align: center">Machine Learning</a>
+											<a href="#sec2" class="w3-bar-item w3-button", style="text-align: center">Deep Learning</a>
+											<a href="#sec3" class="w3-bar-item w3-button", style="text-align: center">Computer Vision</a>
+											<a href="#sec4" class="w3-bar-item w3-button", style="text-align: center">Data Mining</a>
+										</div>
+										<div id="fa">
+											<a href="https://github.com/MLikelihood" class="fa fa-github"/>
+										</a>
+										<a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"/>
+									</a>
+
+									<a href="#" class="fa fa-youtube"/>
+								</a>
+								<a href="#" class="fa fa-instagram"/>
+							</a>
+							<a href="#" class="fa fa-reddit"/>
+						</a>
+					</div>
+
+				</div>
+
+
+
+
+
+				<div class="w3-container" style="margin-left:25%">
+
+					<div class="w3-container" >
+						<h2 id="sec1">XGBoost</h2>
+						<p>XGBoost is short for “Extreme Gradient Boosting”, where the term “Gradient Boosting” is proposed in the paper Greedy Function Approximation: A Gradient Boosting Machine, by Friedman. XGBoost is based on this original model. This is a tutorial on gradient boosted trees, and most of the content is based on these slides by the author of xgboost.</p>
+
+
+						<p>The GBM (boosted trees) has been around for really a while, and there are a lot of materials on the topic. This tutorial tries to explain boosted trees in a self-contained and principled way using the elements of supervised learning. We think this explanation is cleaner, more formal, and motivates the variant used in xgboost.</p>
+						<a href="D:\relative reading\XGBoost.pdf" target="_blank">Click for more!</a>
+						<hr>
+						</div>
+
+
+
+
+						<article class="w3-container"> 
+							<h2 id="sec2">Naive Bayes</h2>
+							<p>It would be difficult and practically impossible to classify a web page, a document, an email or any other lengthy text notes manually. This is where Naïve Bayes Classifier machine learning algorithm comes to the rescue. A classifier is a function that allocates a population’s element value from one of the available categories. For instance, Spam Filtering is a popular application of Naïve Bayes algorithm. Spam filter here, is a classifier that assigns a label “Spam” or “Not Spam” to all the emails. </p>
+							<p>Naïve Bayes Classifier is amongst the most popular learning method grouped by similarities, that works on the popular Bayes Theorem of Probability- to build machine learning models particularly for disease prediction and document classification. It is a simple classification of words based on Bayes Probability Theorem for subjective analysis of content.</p>
+							<p>When to use the Machine Learning algorithm - Naïve Bayes Classifier?</p>
+							<p> If you have a moderate or large training data set.If the instances have several attributes.Given the classification parameter, attributes which describe the instances should be conditionally independent.</p>
+							<hr>
+							</article>
+
+							<article class="w3-container"> 
+								<h2 id="sec3">K Means</h2>
+								<p>K-means is a popularly used unsupervised machine learning algorithm for cluster analysis. K-Means is a non-deterministic and iterative method. The algorithm operates on a given data set through pre-defined number of clusters, k. The output of K Means algorithm is k clusters with input data partitioned among the clusters.</p>
+								<p>For instance, let’s consider K-Means Clustering for Wikipedia Search results. The search term “Jaguar” on Wikipedia will return all pages containing the word Jaguar which can refer to Jaguar as a Car, Jaguar as Mac OS version and Jaguar as an Animal. K Means clustering algorithm can be applied to group the webpages that talk about similar concepts. So, the algorithm will group all web pages that talk about Jaguar as an Animal into one cluster, Jaguar as a Car into another cluster and so on.</p>
+
+								<p> Advantages of using K-Means Clustering Machine Learning Algorithm. In case of globular clusters, K-Means produces tighter clusters than hierarchical clustering.Given a smaller value of K, K-Means clustering computes faster than hierarchical clustering for large number of variables.Applications of K-Means Clustering</p>
+
+								<p>K Means Clustering algorithm is used by most of the search engines like Yahoo, Google to cluster web pages by similarity and identify the ‘relevance rate’ of search results. This helps search engines reduce the computational time for the users. Data Science Libraries in Python to implement K-Means Clustering – SciPy, Sci-Kit Learn, Python Wrapper. Data Science Libraries in R to implement K-Means Clustering – stats.</p>
+								<hr>
+								</article>
+
+								<section class="w3-container">
+									<h2 id="sec4"> Mining the data<h2>
+											<h4>Communications.</h4> 
+
+											<p>In an overloaded market where competition is tight, the answers are often within your consumer data. Multimedia and telecommunications companies can use analytic models to make sense of mountains of customers data, helping them predict customer behavior and offer highly targeted and relevant campaigns.</p>
+
+											<h4>Insurance. </h4>
+
+											<p>With analytic know-how, insurance companies can solve complex problems concerning fraud, compliance, risk management and customer attrition. Companies have used data mining techniques to price products more effectively across business lines and find new ways to offer competitive products to their existing customer base.</p>
+
+											<h4>Education.</h4>
+
+											<p>With unified, data-driven views of student progress, educators can predict student performance before they set foot in the classroom – and develop intervention strategies to keep them on course. Data mining helps educators access student data, predict achievement levels and pinpoint students or groups of students in need of extra attention.</p>
+
+											<h4>Manufacturing. </h4>
+											<p>Aligning supply plans with demand forecasts is essential, as is early detection of problems, quality assurance and investment in brand equity. Manufacturers can predict wear of production assets and anticipate maintenance, which can maximize uptime and keep the production line on schedule.</p>
+
+											<h4>Banking.</h4>
+											<p>Automated algorithms help banks understand their customer base as well as the billions of transactions at the heart of the financial system. Data mining helps financial services companies get a better view of market risks, detect fraud faster, manage regulatory compliance obligations and get optimal returns on their marketing investments.</p>
+											<h4>Retail.</h4>
+
+											<p>Large customer databases hold hidden insights that can help you improve customer relationships, optimize marketing campaigns and forecast sales. Through more accurate data models, retail companies can offer more targeted campaigns – and find the offer that makes the biggest impact on the customer.</p>
+											<hr>
+											</section>
+
+
+											<footer>
+												<p>Posted by: Shu Zhang</p>
+												<p>Contact information: <a href="mailto:shuzhang@iastate.edu">
+  shuzhang@iastate.edu</a>.</p>
+											</footer>
+
+
+
+											<h4>Location</h4>
+											<div id="map" style="width:400px;height:400px;background:yellow; float:center; margin:auto"/>
+
+											<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(42.03013, -93.65216), zoom: 10
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+											</script>
+											<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXZGNNWuB7rxQ5AxpIm5nyiX74uBVPg-Y&callback=myMap"/>
+										</script>
+
+
+
+									</div>
+
+
+
+
+
+								</body>
+							</html>
+							
